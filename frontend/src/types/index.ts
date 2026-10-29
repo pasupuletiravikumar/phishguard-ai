@@ -124,6 +124,12 @@ export interface ScanHistorySummary {
   summary: string;
 }
 
+export interface TriggeredRuleStat {
+  rule_id: string;
+  severity: Severity | string;
+  count: number;
+}
+
 export interface DashboardStats {
   total_scans: number;
   low_risk_count: number;
@@ -132,7 +138,7 @@ export interface DashboardStats {
   critical_risk_count: number;
   scans_by_type: Record<string, number>;
   severity_distribution: Record<string, number>;
-  top_triggered_rules: Array<Record<string, unknown>>;
+  top_triggered_rules: TriggeredRuleStat[];
   recent_trend: Array<Record<string, unknown>>;
 }
 
