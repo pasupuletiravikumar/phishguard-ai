@@ -1,12 +1,14 @@
 # PhishGuard AI — AI-Powered Phishing Detection Platform
 
-![Cybersecurity Banner](https://img.shields.io/badge/Security-Phishing%20Detection-blue)
-![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB)
-![FastAPI](https://img.shields.io/badge/FastAPI-0.110-009688)
-![Next.js 14](https://img.shields.io/badge/Next.js-14.2-black)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6)
-![Tests](https://img.shields.io/badge/Tests-30%20Passed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-green)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-success?style=for-the-badge&logo=vercel)](https://phishguard-ai-one-amber.vercel.app)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/pasupuletiravikumar/phishguard-ai)
+![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.110-009688?style=for-the-badge&logo=fastapi)
+![Next.js 14](https://img.shields.io/badge/Next.js-14.2-black?style=for-the-badge&logo=next.js)
+![Tests](https://img.shields.io/badge/Tests-30%20Passed-brightgreen?style=for-the-badge)
+
+> 🌐 **Live Web Application:** [https://phishguard-ai-one-amber.vercel.app](https://phishguard-ai-one-amber.vercel.app)  
+> 💻 **GitHub Repository:** [https://github.com/pasupuletiravikumar/phishguard-ai](https://github.com/pasupuletiravikumar/phishguard-ai)
 
 **PhishGuard AI** is a production-grade cybersecurity web platform engineered to detect malicious URLs, deceptive phishing emails, and smishing attacks through a hybrid architecture combining rule-based heuristics, RFC-compliant lexical dissection, and machine learning classification.
 

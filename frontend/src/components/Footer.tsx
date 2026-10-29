@@ -8,7 +8,7 @@ const footerLinks = [
 ];
 
 export default function Footer() {
-  const githubUrl = process.env.NEXT_PUBLIC_GITHUB_URL || '#';
+  const githubUrl = process.env.NEXT_PUBLIC_GITHUB_URL || 'https://github.com/pasupuletiravikumar/phishguard-ai';
 
   return (
     <footer className="border-t border-navy-700/50 bg-navy-900/50">
